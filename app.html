@@ -13,11 +13,21 @@
          .row {
             margin-top: calc((100vh - 190.141px) / 2);
          }
+
+         h1 {
+            margin-top: 0;
+         }
       </style>
    </head>
    <body>
       <div class = "row">
          <div class = "col s8 offset-s2">
+            <div id = "message-show" class = "card-panel hide">
+               <h1></h1>
+               <div>
+                  <a href = "./app.html">Create your own secret message</a>
+               </div>
+            </div>
             <div id = "message-form" class = "card-panel">
                <form action = "">
                   <label for = "message-input" style = "font-family: arial">Enter a Secret Message</label>
